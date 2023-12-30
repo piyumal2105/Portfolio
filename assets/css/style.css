@@ -939,7 +939,7 @@ main {
   margin-bottom: 15px;
 }
 
-.project-img::before {
+/* .project-img::before {
   content: "";
   position: absolute;
   top: 0;
@@ -949,7 +949,7 @@ main {
   background: transparent;
   z-index: 1;
   transition: var(--transition-1);
-}
+} */
 
 .project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
 
